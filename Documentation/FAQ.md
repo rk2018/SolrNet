@@ -1,5 +1,5 @@
 ## Frequently asked questions about SolrNet
-
+First commit in this file
 #### Is SolrNet a .NET port of Solr?
 
 No, SolrNet is a HTTP client so you can talk to Solr from your .NET application. If you want to run Solr on .NET, take a look at this [blog post](http://bugsquash.blogspot.com/2011/02/running-solr-on-net.html).
@@ -14,7 +14,7 @@ You're probably using an outdated version. [Upgrade to a recent build](README.md
 
 #### I'm getting a 404 (not found) response from Solr when doing any operation with SolrNet
 
-You're probably missing the core name in the URL you're passing to Startup.Init
+Added a new line for second staging
 
 #### I'm getting an error "'SolrConnection' already registered in container"
 
