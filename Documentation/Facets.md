@@ -2,6 +2,8 @@
 
 SolrNet supports [faceted searching](https://cwiki.apache.org/confluence/display/solr/Faceting).
 
+Added a new line for first commit
+
 There are basically three kinds of facet queries:
 
  1. querying by field
@@ -23,9 +25,8 @@ Or on the other hand your project requires all facets to be returned and since S
 ### Querying by field
 Querying by field is handled by the `SolrFacetFieldQuery` class. Results are available through the `FacetFields` property.
 
-Example: print all categories sorted by popularity.
+This is second line which needs to be deleted
 
-```c#
 ISolrOperations<Document> solr = ...
 var r = solr.Query(SolrQuery.All, new QueryOptions {
     Rows = 0,
